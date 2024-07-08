@@ -6,7 +6,7 @@ from PIL import Image
 import numpy as np
 
 class ConfigPath:
-    face_detector_weights = "/home/fatken/data/hififace_pytorch/face_detector_scrfd_10g_bnkps.onnx"
+    face_detector_weights = "/home/shijiez/data/hififace/face_detector_scrfd_10g_bnkps.onnx"
     model_path = ""
     model_idx = 80000
     ffmpeg_device = "cuda"
