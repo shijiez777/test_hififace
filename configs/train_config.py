@@ -30,10 +30,10 @@ class TrainConfig:
     load_checkpoint = None  # ("/data/checkpoints/hififace/rebuilt_discriminator_SFF_c256_1683367464544", 400000)
 
     identity_extractor_config = {
-        "f_3d_checkpoint_path": "/data/useful_ckpt/Deep3DFaceRecon/epoch_20_new.pth",
-        "f_id_checkpoint_path": "/data/useful_ckpt/arcface/ms1mv3_arcface_r100_fp16_backbone.pth",
-        "bfm_folder": "/data/useful_ckpt/BFM",
-        "hrnet_path": "/data/useful_ckpt/face_98lmks/HR18-WFLW.pth",
+        "f_3d_checkpoint_path": "/home/shijiez/data/hififace/epoch_20.pth",
+        "f_id_checkpoint_path": "/home/shijiez/data/hififace/ms1mv3_arcface_r100_fp16_backbone.pth",
+        # "bfm_folder": "/data",
+        # "hrnet_path": "/data/useful_ckpt/face_98lmks/HR18-WFLW.pth",
     }
 
     visualize_interval: int = 100
