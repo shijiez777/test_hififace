@@ -24,8 +24,8 @@ class TrainConfig:
     use_ddp: bool = True
 
     mouth_mask: bool = True
-    eye_hm_loss: bool = False
-    mouth_hm_loss: bool = False
+    eye_hm_loss: bool = True
+    mouth_hm_loss: bool = True
 
     load_checkpoint = None  # ("/data/checkpoints/hififace/rebuilt_discriminator_SFF_c256_1683367464544", 400000)
 
